@@ -11,8 +11,8 @@ class LightManager(QtWidgets.QDialog):
         "Directional Light": pm.directionalLight,
         "Area Light": partial(pm.shadingNode, 'areaLight', asLight=True),
         "Volume Light": partial(pm.shadingNode, 'volumeLight', asLight=True),
-        #"Ai Area Light": partial(mutils.createLocator, 'aiAreaLight', asLight=True),
-        #"Ai Skydome Light": partial(mutils.createLocator, 'aiSkyDomeLight', asLight=True)
+        ##"Ai Area Light": partial(mutils.createLocator, 'aiAreaLight', asLight=True),
+        ##"Ai Skydome Light": partial(mutils.createLocator, 'aiSkyDomeLight', asLight=True)
     }
 
     def __init__(self):
