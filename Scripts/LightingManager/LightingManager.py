@@ -3,7 +3,7 @@ import pymel.core as pm
 import mtoa.utils as mutils
 from functools import partial
 
-## test branching 65 ok ##
+## test branching 65 ok  ##
 
 class LightManager(QtWidgets.QDialog):
 
