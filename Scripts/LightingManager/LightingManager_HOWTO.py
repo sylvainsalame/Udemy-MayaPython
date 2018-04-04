@@ -299,9 +299,12 @@ class LightingManager(QtWidgets.QWidget):
             # Finally we give it a layout
             dlgLayout = QtWidgets.QVBoxLayout(parent)
 
+
         # Now we are on to our actual widget
         # We've figured out our parent, so lets send that to the QWidgets initialization method
+
         super(LightingManager, self).__init__(parent=parent)
+
 
         # We call our buildUI method to construct our UI
         self.buildUI()
