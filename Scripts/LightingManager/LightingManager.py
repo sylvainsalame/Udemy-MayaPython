@@ -72,6 +72,7 @@ class LightManager(QtWidgets.QWidget):
 
         super(LightManager, self).__init__(parent=parent)
 
+
         self.buildUI()
         self.populate()
 
